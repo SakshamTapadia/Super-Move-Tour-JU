@@ -1,0 +1,11 @@
+[package]
+name = "P2PCarRental"  # This should match the module name or project name
+version = "1.0.0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[addresses]
+MyModule = "0x40afcff08b4095f634b9dce2363ea9a854e85e3498ae4099ab6a578bfc773907"
